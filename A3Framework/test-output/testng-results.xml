@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[sweet]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-26T17:50:55 IST" name="Suite" finished-at="2024-07-26T17:51:10 IST" duration-ms="15052">
+    <groups>
+      <group name="pan india">
+        <method signature="Prabhas.main()[pri:0, instance:groupExecution.Prabhas@2794eab6]" name="main" class="groupExecution.Prabhas"/>
+        <method signature="jrNTR.main()[pri:0, instance:groupExecution.jrNTR@4d5650ae]" name="main" class="groupExecution.jrNTR"/>
+        <method signature="yash.main()[pri:0, instance:groupExecution.yash@e350b40]" name="main" class="groupExecution.yash"/>
+      </group> <!-- pan india -->
+      <group name="tfi">
+        <method signature="Prabhas.main()[pri:0, instance:groupExecution.Prabhas@2794eab6]" name="main" class="groupExecution.Prabhas"/>
+        <method signature="jrNTR.main()[pri:0, instance:groupExecution.jrNTR@4d5650ae]" name="main" class="groupExecution.jrNTR"/>
+      </group> <!-- tfi -->
+      <group name="tamizh">
+        <method signature="Suriya.main()[pri:0, instance:groupExecution.Suriya@41a0aa7d]" name="main" class="groupExecution.Suriya"/>
+      </group> <!-- tamizh -->
+      <group name="kfi">
+        <method signature="yash.main()[pri:0, instance:groupExecution.yash@e350b40]" name="main" class="groupExecution.yash"/>
+      </group> <!-- kfi -->
+    </groups>
+    <test started-at="2024-07-26T17:50:55 IST" name="Test" finished-at="2024-07-26T17:51:10 IST" duration-ms="15052">
+      <class name="groupExecution.Suriya">
+        <test-method signature="main()[pri:0, instance:groupExecution.Suriya@41a0aa7d]" started-at="2024-07-26T17:51:05 IST" name="main" finished-at="2024-07-26T17:51:08 IST" duration-ms="2671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- groupExecution.Suriya -->
+      <class name="groupExecution.yash">
+        <test-method signature="main()[pri:0, instance:groupExecution.yash@e350b40]" started-at="2024-07-26T17:51:02 IST" name="main" finished-at="2024-07-26T17:51:05 IST" duration-ms="3399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- groupExecution.yash -->
+      <class name="groupExecution.jrNTR">
+        <test-method signature="main()[pri:0, instance:groupExecution.jrNTR@4d5650ae]" started-at="2024-07-26T17:50:55 IST" name="main" finished-at="2024-07-26T17:50:59 IST" duration-ms="3753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method signature="main1()[pri:0, instance:groupExecution.jrNTR@4d5650ae]" started-at="2024-07-26T17:50:59 IST" name="main1" finished-at="2024-07-26T17:51:02 IST" duration-ms="2659" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[sweet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- main1 -->
+      </class> <!-- groupExecution.jrNTR -->
+      <class name="groupExecution.Prabhas">
+        <test-method signature="main()[pri:0, instance:groupExecution.Prabhas@2794eab6]" started-at="2024-07-26T17:51:08 IST" name="main" finished-at="2024-07-26T17:51:10 IST" duration-ms="2494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- groupExecution.Prabhas -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
